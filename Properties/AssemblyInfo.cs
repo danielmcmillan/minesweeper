@@ -7,22 +7,20 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyTitle("Minesweeper")]
 [assembly: AssemblyProduct("Minesweeper")]
+[assembly: AssemblyConfiguration("")]
 [assembly: AssemblyDescription("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2012")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
-// COM, set the ComVisible attribute to true on that type. Only Windows
-// assemblies support COM.
+// COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
-// On Windows, the following GUID is for the ID of the typelib if this
-// project is exposed to COM. On other platforms, it unique identifies the
-// title storage container when deploying this assembly to the device.
-[assembly: Guid("6aabd6af-6d66-4e26-b862-8676b3a940c1")]
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("fdb71177-2209-49da-91e2-f449f11adfdd")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -31,4 +29,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
+// You can specify all the values or you can default the Build and Revision Numbers 
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
